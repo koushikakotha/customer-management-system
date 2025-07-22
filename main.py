@@ -10,7 +10,7 @@ from openpyxl.styles import Font
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Rishi@0297",
+    password="************",  # write your mysql password
     database="customer_mgmt"
 )
 cursor = db.cursor()
